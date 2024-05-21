@@ -1,17 +1,17 @@
 public enum Info
 {   
 
-    PRICE_MEASUREMENT("norwegian kroner", "NOK"),
+    PRICE_MEASUREMENT("Philippine pesos", "PHP"),
 
-    WEIGHT_MEASUREMENT("kilograms", "kg"),
+    WEIGHT_MEASUREMENT("Kilograms", "kg"),
 
-    LENGTH_MEMASUREMENT("inches", "in"),
+    LENGTH_MEMASUREMENT("Inches", "in"),
 
-    HEIGHT_MEASUREMENT("inches", "in"),
+    HEIGHT_MEASUREMENT("Inches", "in"),
 
-    WIDTH_MEASUREMENT("inches", "in"),
+    WIDTH_MEASUREMENT("Inches", "in"),
 
-    QUANTITY_MEASUREMENT("units", "");
+    QUANTITY_MEASUREMENT("Units", "");
     
     private final String expandedMeasurements;
     private final String abbreviatedMeasurements;
